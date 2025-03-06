@@ -1,0 +1,68 @@
+.mappings {
+  background-color: $clr-light;
+  padding-top: 15rem;
+  &__image {
+    text-align: center;
+  }
+}
+
+.contact__page {
+  text-align: center;
+  background-color: $clr-yellow;
+  padding: 5rem 0 7rem;
+
+  h1 {
+    font-size: 4.5rem;
+    padding: 0 0 2rem;
+  }
+
+  &__wrapper {
+    .full__name {
+      input {
+        padding: 1rem 5.45rem 1rem 0.6rem;
+        outline: none;
+        width: 27.1rem;
+      }
+    }
+
+    ul {
+      display: block;
+      input {
+        padding: 0.6rem 3rem;
+      }
+
+      li {
+        margin-bottom: 1rem;
+
+        input,
+        textarea {
+          border: none;
+          padding: 0.6rem;
+          border-radius: 0.7rem;
+          resize: none;
+        }
+
+        .email,
+        .subject {
+          padding: 1rem 3rem 1rem 0.6rem;
+          width: 55rem;
+          outline: none;
+        }
+
+        .message {
+          width: 55rem;
+          height: 10rem;
+          margin-bottom: 1rem;
+          outline: none;
+        }
+
+        .btn {
+          background-color: $clr-primary;
+          color: $clr-light;
+          padding: 1rem 2rem;
+          border-radius: 1rem;
+        }
+      }
+    }
+  }
+}

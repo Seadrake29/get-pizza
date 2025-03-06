@@ -26,7 +26,6 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
   line-height: 1.4;
-  height: 2000px;
   position: relative;
   overflow-x: hidden;
 }
@@ -950,6 +949,146 @@ body {
 .review__wrapper p {
   font-size: 1.5rem;
   margin-bottom: 3rem;
+}
+
+.always__banner {
+  overflow: hidden;
+  transform: translateY(1rem);
+}
+.always__banner img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%);
+}
+.always__banner h1 {
+  text-align: center;
+  position: absolute;
+  top: 32rem;
+  left: 55rem;
+  color: #ffffff;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.menu__list__item {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu__list {
+  padding: 5rem 0;
+  position: relative;
+  background-color: #223c5f;
+  margin-top: -50rem;
+}
+.menu__list nav {
+  background-color: #f7b754;
+  border-radius: 2rem;
+  padding: 1.8rem 0;
+  width: 79rem;
+  transform: translateX(25.7rem);
+  margin-bottom: 3rem;
+  margin-left: 3.5rem;
+}
+.menu__list nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.menu__list nav ul li {
+  color: #ffffff;
+}
+.menu__list nav ul li a {
+  color: #223c5f;
+  font-weight: 500;
+}
+.menu__list nav ul li .active {
+  color: #b23920;
+}
+.menu__list .menu__list__card {
+  border: 1px solid #ffffff;
+  border-radius: 1rem;
+  width: 25rem;
+  height: 30rem;
+  text-align: center;
+  padding: 2rem;
+}
+.menu__list .menu__list__card img {
+  width: 12rem;
+  height: 12rem;
+  margin-bottom: 1.2rem;
+}
+.menu__list .menu__list__card .menu__list__text {
+  color: #ffffff;
+}
+.menu__list .menu__list__card i {
+  color: #f7b754;
+  margin-bottom: 2.5rem;
+}
+.menu__list .menu__list__card a {
+  border: 1px solid #b23920;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  color: #ffffff;
+}
+
+.mappings {
+  background-color: #ffffff;
+  padding-top: 15rem;
+}
+.mappings__image {
+  text-align: center;
+}
+
+.contact__page {
+  text-align: center;
+  background-color: #f7b754;
+  padding: 5rem 0 7rem;
+}
+.contact__page h1 {
+  font-size: 4.5rem;
+  padding: 0 0 2rem;
+}
+.contact__page__wrapper .full__name input {
+  padding: 1rem 5.45rem 1rem 0.6rem;
+  outline: none;
+  width: 27.1rem;
+}
+.contact__page__wrapper ul {
+  display: block;
+}
+.contact__page__wrapper ul input {
+  padding: 0.6rem 3rem;
+}
+.contact__page__wrapper ul li {
+  margin-bottom: 1rem;
+}
+.contact__page__wrapper ul li input,
+.contact__page__wrapper ul li textarea {
+  border: none;
+  padding: 0.6rem;
+  border-radius: 0.7rem;
+  resize: none;
+}
+.contact__page__wrapper ul li .email,
+.contact__page__wrapper ul li .subject {
+  padding: 1rem 3rem 1rem 0.6rem;
+  width: 55rem;
+  outline: none;
+}
+.contact__page__wrapper ul li .message {
+  width: 55rem;
+  height: 10rem;
+  margin-bottom: 1rem;
+  outline: none;
+}
+.contact__page__wrapper ul li .btn {
+  background-color: #b23920;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
 }
 
 .header {
