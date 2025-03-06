@@ -228,25 +228,3 @@
 
 // End of Subscription CSS
 
-// Start of footer CSS
-
-.footer {
-  text-align: center;
-
-  &__wrapper {
-    margin-bottom: 2rem;
-    ul {
-      margin-top: 4rem;
-      display: flex;
-      justify-content: center;
-      gap: 5rem;
-    }
-  }
-
-  small {
-    font-size: 1.8rem;
-    color: $clr-primary;
-  }
-}
-
-// End of footer CSS

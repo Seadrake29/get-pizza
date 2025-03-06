@@ -890,23 +890,6 @@ body {
   cursor: pointer;
 }
 
-.footer {
-  text-align: center;
-}
-.footer__wrapper {
-  margin-bottom: 2rem;
-}
-.footer__wrapper ul {
-  margin-top: 4rem;
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-}
-.footer small {
-  font-size: 1.8rem;
-  color: #b23920;
-}
-
 .serving {
   padding-top: 15rem;
 }
@@ -1008,4 +991,21 @@ body {
   background-color: #eee8e8;
   color: #b23920;
   padding: 0.5rem 0;
+}
+
+.footer {
+  text-align: center;
+}
+.footer__wrapper {
+  margin-bottom: 2rem;
+}
+.footer__wrapper ul {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.footer small {
+  font-size: 1.8rem;
+  color: #b23920;
 }/*# sourceMappingURL=main.css.map */
