@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: $clr-light;
+  z-index: 99;
+
+  .logo {
+    img {
+      @include imgFit(100%, 6rem);
+    }
+  }
+
+  &__wrapper {
+    @include centerBetween;
+  }
+
+  &__nav {
+    ul {
+      display: flex;
+      gap: 1rem;
+
+      li {
+        .active {
+          color: $clr-primary;
+        }
+        a {
+          color: $clr-dark;
+          text-transform: uppercase;
+          font-size: 1.5rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.cta {
+  text-align: center;
+  background-color: $clr-gray;
+  color: $clr-primary;
+  padding: 0.5rem 0;
+}
